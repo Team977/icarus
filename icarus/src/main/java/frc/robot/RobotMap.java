@@ -23,4 +23,7 @@ public class RobotMap {
   // number and the module. For example you with a rangefinder:
   // public static int rangefinderPort = 1;
   // public static int rangefinderModule = 1;
+  public static final double l = 25.0;
+  public static final double w = 23.0;
+  public static final double r = Math.sqrt(l*l+w*w);
 }
